@@ -8,6 +8,16 @@
 @tailwind components;
 @tailwind utilities;
 
+::-moz-selection {
+  color: black;
+  background: #7a85ff;
+}
+
+::selection {
+  color: black;
+  background: #7a85ff;
+}
+
 .underline {
   color: #ffffff;
   position: relative;
