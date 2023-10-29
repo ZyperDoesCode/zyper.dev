@@ -29,9 +29,12 @@ export default function Navbar() {
         </div>
       </div>
       <div>
-        <div className="m-10 h-10 w-40 bg-[#616dff] flex rounded text-white items-center justify-center cursor-pointer font-outfit hover:scale-105 ease-in duration-200 underline hidden lg:flex">
+        <div className="m-10 h-10 w-40 bg-[#616dff] flex rounded text-white items-center justify-center cursor-pointer font-outfit hover:scale-105 ease-in duration-200 hidden lg:flex">
           <GrMail className="mr-2" />
           Contact Me
+        </div>
+        <div className="m-10 h-10 w-10 bg-[#616dff] text-center flex rounded-full text-white items-center justify-center cursor-pointer font-outfit hover:scale-105 ease-in duration-200 hidden md:flex lg:hidden">
+          <GrMail size={20}/>
         </div>
       </div>
     </nav>
