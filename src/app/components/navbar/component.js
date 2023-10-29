@@ -1,4 +1,5 @@
 import { GrMail } from "react-icons/gr";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Navbar() {
   return (
@@ -34,7 +35,10 @@ export default function Navbar() {
           Contact Me
         </div>
         <div className="m-10 h-10 w-10 bg-[#616dff] text-center flex rounded-full text-white items-center justify-center cursor-pointer font-outfit hover:scale-105 ease-in duration-200 hidden md:flex lg:hidden">
-          <GrMail size={20}/>
+          <GrMail size={20} />
+        </div>
+        <div className="m-5 h-10 mt-4 w-10 bg-[#616dff] text-center flex rounded-full text-white items-center justify-center cursor-pointer font-outfit hover:scale-105 ease-in duration-200 md:hidden lg:hidden">
+          <GiHamburgerMenu size={20} />
         </div>
       </div>
     </nav>
