@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -61,4 +64,16 @@
 
 .font-inconsolata {
   font-family: "Inconsolata";
+}
+
+.font-righteous {
+  font-family: "Righteous";
+}
+
+.font-rubikmonoone{
+  font-family: "Rubik Mono One";
+}
+
+.font-kronaone {
+  font-family: "Krona One";
 }
