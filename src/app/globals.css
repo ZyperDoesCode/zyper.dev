@@ -77,3 +77,67 @@
 .font-kronaone {
   font-family: "Krona One";
 }
+
+.open {
+  -webkit-animation: slideIn 0.4s forwards;
+  -moz-animation: slideIn 0.4s forwards;
+  animation: slideIn 0.4s forwards;
+}
+
+.close {
+  animation: fadeOut 0.4s forwards, slideOut 0.4s forwards;
+}
+
+@-webkit-keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-moz-keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideOut{
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% { opacity: 1;}
+  99% { opacity: 0.01;width: 100%; height: 100%;}
+  100% { opacity: 0;width: 0; height: 0;}
+}  
+
+@keyframes fadeOut {
+  0% { opacity: 1;}
+  99% { opacity: 0.01;width: 100%; height: 100%;}
+  100% { opacity: 0;width: 0; height: 0;}
+}
+
+@-moz-keyframes fadeOut {
+  0% { opacity: 1;}
+  99% { opacity: 0.01;width: 100%; height: 100%;}
+  100% { opacity: 0;width: 0; height: 0;}
+}
