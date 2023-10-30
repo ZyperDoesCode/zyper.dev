@@ -7,10 +7,9 @@ import { useState } from "react";
 export default function Navbar() {
   const [navRelease, setNavRelease] = useState(false);
   const [navClass, setNavClass] = useState(null);
-  const [classUpdate, setClassUpdate] = useState(null);
 
   return (
-    <div className="flex flex-col w-screen overflow-hidden">
+    <div className="flex flex-col w-screen overflow-hidden ">
       <nav className="z-[100] h-25 w-[100%] relative items-center flex flex-row place-content-between pt-5 pl-5 pr-5 md:pt-20 md:pl-20 md:pr-20">
         <div className="flex flex-row items-center justify-center md:space-x-12">
           <div>
